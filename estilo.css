@@ -12,6 +12,11 @@ aside{
     align-items: center;
     background-color: lightgray;
     position: relative;
+    transform: translateX(-310px);
+}
+
+aside h2, aside nav {
+    visibility: hidden;
 }
 
 aside nav{
