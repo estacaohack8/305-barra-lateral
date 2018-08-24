@@ -8,4 +8,7 @@ botao.onclick = function(){
             item.classList.toggle("invisivel");
         }
     }
+    for(item of botao.children){
+        item.classList.toggle('mostrando');
+    }
 }
