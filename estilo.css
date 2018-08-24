@@ -3,8 +3,22 @@
     font-family: sans-serif;
 }
 
+body{
+    height: 5000px;
+}
+
 .invisivel{
     visibility: hidden;
+}
+
+#progresso{
+    height: 15px;
+    width: 1px;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 aside{
@@ -72,4 +86,8 @@ aside nav a{
 
 .barrinha.mostrando:nth-child(3){
     transform: rotate(-45deg);
+}
+
+::-webkit-scrollbar{
+    width: 0;
 }
