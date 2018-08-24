@@ -14,12 +14,12 @@ aside{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: lightgray;
     position: relative;
     transform: translateX(-310px);
 }
 
 aside.mostrando{
+    background-color: lightgray;
     transform: translateX(0);
 }
 
